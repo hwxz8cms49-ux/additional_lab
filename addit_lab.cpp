@@ -34,7 +34,7 @@ int main()
         currline >> currname >> currsum;
         for (int i = 0; i < n; i++) {
             if (name[i] == currname) {
-                expenses[i] += currsum; // считаю кто скок по факту потратил
+                expenses[i] += currsum; 
             }
         }
         char slash;
